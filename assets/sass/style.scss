@@ -1,0 +1,9 @@
+// Patron de colores
+$principal: #154e81;
+$secundario: #7fb000;
+
+// Modificando variables de bootstrap
+$dark: $principal;
+$primary: $secundario;
+
+@import "../libs/bootstrap/scss/bootstrap";
