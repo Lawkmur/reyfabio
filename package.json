@@ -1,0 +1,27 @@
+{
+  "name": "empowered",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lawkmur/reyfabio.git"
+  },
+  "keywords": [],
+  "author": "Fabio Menjívar, Reynaldo Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lawkmur/reyfabio/issues"
+  },
+  "homepage": "https://github.com/Lawkmur/reyfabio#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
