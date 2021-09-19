@@ -2,8 +2,9 @@
 const { resolveSoa } = require('dns');
 const express = require('express');
 const app = express();
-//Configuramos el puerto 
-const port = 3000;
+
+//Configuramos el puerto
+const PORT = process.env.PORT || 3000;
 
 // Template Engine EJS / Motor de Plantilla EJS
 app.set("view engine", "ejs");
@@ -17,7 +18,7 @@ app.use(express.static(__dirname + "/assets"));
 
 //index
 app.get('/', (req, res) => {
-  res.render("index", {tituloindex : "EmpowerED - Expo Virtual ¡Supérate! ADOC"})
+  res.render("index", {tituloindex : "EmpowerED - Expo 2021"})
 })
 
 // subpaginas 
@@ -47,7 +48,6 @@ app.use((req, res, next) => {
 
 
 //
-app.listen(port, () => {
-  console.log(`Website working on localhost:${port}`)
+app.listen(PORT, () => {
+  console.log(`Website working on localhost:${PORT}`)
 })
-
