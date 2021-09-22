@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-  color: #ff007a;
+  color: #7fb000;
 }
 
 a,
@@ -81,11 +81,11 @@ p {
 }
 
 .text-secondary {
-  color: #4125dd !important;
+  color: #154e81 !important;
 }
 
 .text-primary {
-  color: #ff007a !important;
+  color: #7fb000 !important;
 }
 
 .subtitle {
@@ -146,11 +146,11 @@ Common
 }
 
 .bg-secondary {
-  background: #4125dd !important;
+  background: #154e81 !important;
 }
 
 .bg-primary {
-  background: #ff007a !important;
+  background: #7fb000 !important;
 }
 
 .content-padding {
@@ -177,9 +177,9 @@ Common
 }
 
 .btn-hero {
-  background: #ff007a;
+  background: #7fb000;
   color: #ffffff;
-  border-color: #ff007a;
+  border-color: #7fb000;
 }
 
 .btn-hero:hover {
@@ -189,15 +189,15 @@ Common
 }
 
 .btn-secondary {
-  background: #4125dd;
-  border-color: #4125dd;
+  background: #7fb000;
+  border-color: #7fb000;
   color: #ffffff;
 }
 
 .btn-secondary:hover {
   background: transparent;
   color: #111111;
-  border-color: #4125dd;
+  border-color: #7fb000;
 }
 
 .btn-gray {
@@ -215,7 +215,7 @@ Common
 }
 
 .text-color {
-  color: #ff007a;
+  color: #7fb000;
 }
 
 .text-md {

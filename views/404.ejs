@@ -7,11 +7,19 @@
 </head>
 
 <body class="d-flex flex-column h-100">
- <!-- Navigation bar-->
- <%- include("templates/nav.ejs") %> 
+
 
 <!-- Inicio del contenido -->
-<main class="flex-shrink-0">
+<div id="notfound">
+  <div class="notfound">
+    <div class="notfound-404">
+    <h1>:(</h1>
+    </div>
+  <h2>404 - Página no Encontrada</h2>
+  <p>
+    La página que estás buscando podría estar temporalmente inaccesible o ha sido eliminada.
+  </p>
+  <a href="/">página principal</a>
+  </div>
+</div>
 
-<!-- footer-->
-<%- include("templates/footer.ejs") %>
